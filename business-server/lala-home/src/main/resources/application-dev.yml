@@ -1,0 +1,4 @@
+logging:
+  level:
+    com.lala.home.mapper: debug
+  config: classpath:logback-spring-dev.xml

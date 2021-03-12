@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lala.order.mapper.ProductStaticsMapper">
+  <resultMap id="BaseResultMap" type="com.lala.order.entity.ProductStatics">
+    <!--@mbg.generated-->
+    <!--@Table product_statics-->
+    <id column="ps_id" jdbcType="INTEGER" property="psId" />
+    <result column="sell_count" jdbcType="INTEGER" property="sellCount" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ps_id, sell_count, product_id
+  </sql>
+</mapper>

@@ -1,0 +1,10 @@
+logging:
+  level:
+    com.lala.home.mapper: debug
+  config: classpath:logback-spring-dev.xml
+spring:
+  datasource:
+    druid:
+      username: root
+      password: root
+      url: "jdbc:mysql://114.215.196.38:3306/lala"

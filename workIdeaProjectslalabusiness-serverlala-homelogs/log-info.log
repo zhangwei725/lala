@@ -1,0 +1,48 @@
+2021-03-12 10:18:15.452 [background-preinit] INFO  org.hibernate.validator.internal.util.Version Line:?   - HV000001: Hibernate Validator 6.0.22.Final
+2021-03-12 10:18:15.556 [main] INFO  com.lala.order.OrderApp Line:?   - Starting OrderApp on ZHANGWEI26F5 with PID 6484 (D:\work\IdeaProjects\lala\business-server\lala-order\target\classes started by zhangwei in D:\work\IdeaProjects\lala)
+2021-03-12 10:18:15.557 [main] INFO  com.lala.order.OrderApp Line:?   - The following profiles are active: db,dev
+2021-03-12 10:18:17.084 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:?   - No MyBatis mapper was found in '[com.lala.**.mapper]' package. Please check your configuration.
+2021-03-12 10:18:17.724 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat initialized with port(s): 8880 (http)
+2021-03-12 10:18:17.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Initializing ProtocolHandler ["http-nio-8880"]
+2021-03-12 10:18:17.738 [main] INFO  org.apache.catalina.core.StandardService Line:?   - Starting service [Tomcat]
+2021-03-12 10:18:17.738 [main] INFO  org.apache.catalina.core.StandardEngine Line:?   - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-12 10:18:17.867 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:?   - Initializing Spring embedded WebApplicationContext
+2021-03-12 10:18:17.867 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:?   - Root WebApplicationContext: initialization completed in 1916 ms
+2021-03-12 10:18:18.418 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:?   - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 10:18:18.609 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:?   - Init DruidDataSource
+2021-03-12 10:18:21.902 [main] INFO  com.alibaba.druid.pool.DruidDataSource Line:?   - {dataSource-1} inited
+2021-03-12 10:18:22.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Starting ProtocolHandler ["http-nio-8880"]
+2021-03-12 10:18:22.350 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat started on port(s): 8880 (http) with context path ''
+2021-03-12 10:18:22.357 [main] INFO  com.lala.order.OrderApp Line:?   - Started OrderApp in 7.979 seconds (JVM running for 11.717)
+2021-03-12 10:19:44.490 [background-preinit] INFO  org.hibernate.validator.internal.util.Version Line:?   - HV000001: Hibernate Validator 6.0.22.Final
+2021-03-12 10:19:44.545 [main] INFO  com.lala.order.OrderApp Line:?   - Starting OrderApp on ZHANGWEI26F5 with PID 2688 (D:\work\IdeaProjects\lala\business-server\lala-order\target\classes started by zhangwei in D:\work\IdeaProjects\lala)
+2021-03-12 10:19:44.545 [main] INFO  com.lala.order.OrderApp Line:?   - The following profiles are active: db,dev
+2021-03-12 10:19:46.037 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:?   - No MyBatis mapper was found in '[com.lala.**.mapper]' package. Please check your configuration.
+2021-03-12 10:19:46.634 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat initialized with port(s): 8888 (http)
+2021-03-12 10:19:46.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Initializing ProtocolHandler ["http-nio-8888"]
+2021-03-12 10:19:46.662 [main] INFO  org.apache.catalina.core.StandardService Line:?   - Starting service [Tomcat]
+2021-03-12 10:19:46.662 [main] INFO  org.apache.catalina.core.StandardEngine Line:?   - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-12 10:19:46.772 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:?   - Initializing Spring embedded WebApplicationContext
+2021-03-12 10:19:46.772 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:?   - Root WebApplicationContext: initialization completed in 2121 ms
+2021-03-12 10:19:47.194 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:?   - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 10:19:47.339 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:?   - Init DruidDataSource
+2021-03-12 10:19:50.831 [main] INFO  com.alibaba.druid.pool.DruidDataSource Line:?   - {dataSource-1} inited
+2021-03-12 10:19:51.269 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Starting ProtocolHandler ["http-nio-8888"]
+2021-03-12 10:19:51.323 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat started on port(s): 8888 (http) with context path ''
+2021-03-12 10:19:51.329 [main] INFO  com.lala.order.OrderApp Line:?   - Started OrderApp in 7.606 seconds (JVM running for 8.838)
+2021-03-12 10:24:12.739 [background-preinit] INFO  org.hibernate.validator.internal.util.Version Line:?   - HV000001: Hibernate Validator 6.0.22.Final
+2021-03-12 10:24:13.048 [main] INFO  com.lala.order.OrderApp Line:?   - Starting OrderApp on ZHANGWEI26F5 with PID 6176 (D:\work\IdeaProjects\lala\business-server\lala-order\target\classes started by zhangwei in D:\work\IdeaProjects\lala)
+2021-03-12 10:24:13.050 [main] INFO  com.lala.order.OrderApp Line:?   - The following profiles are active: db,dev
+2021-03-12 10:24:14.650 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:?   - No MyBatis mapper was found in '[com.lala.**.mapper]' package. Please check your configuration.
+2021-03-12 10:24:15.312 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat initialized with port(s): 8888 (http)
+2021-03-12 10:24:15.323 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Initializing ProtocolHandler ["http-nio-8888"]
+2021-03-12 10:24:15.324 [main] INFO  org.apache.catalina.core.StandardService Line:?   - Starting service [Tomcat]
+2021-03-12 10:24:15.324 [main] INFO  org.apache.catalina.core.StandardEngine Line:?   - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-12 10:24:15.504 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:?   - Initializing Spring embedded WebApplicationContext
+2021-03-12 10:24:15.506 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:?   - Root WebApplicationContext: initialization completed in 2269 ms
+2021-03-12 10:24:16.485 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:?   - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 10:24:16.981 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:?   - Init DruidDataSource
+2021-03-12 10:24:21.731 [main] INFO  com.alibaba.druid.pool.DruidDataSource Line:?   - {dataSource-1} inited
+2021-03-12 10:24:22.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Starting ProtocolHandler ["http-nio-8888"]
+2021-03-12 10:24:22.389 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat started on port(s): 8888 (http) with context path ''
+2021-03-12 10:24:22.394 [main] INFO  com.lala.order.OrderApp Line:?   - Started OrderApp in 11.034 seconds (JVM running for 12.498)

@@ -4,18 +4,22 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.smart</groupId>
-        <artifactId>lala</artifactId>
+        <artifactId>business-server</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <packaging>pom</packaging>
-    <artifactId>business-server</artifactId>
+    <artifactId>lala-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>business-server</name>
-    <modules>
-        <module>lala-home</module>
-        <module>lala-order</module>
-    </modules>
-    <description></description>
+    <name>lala-order</name>
+    <dependencies>
+        <dependency>
+            <groupId>com.smart</groupId>
+            <artifactId>lala-common-pojo</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.smart</groupId>
+            <artifactId>lala-db-starter</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

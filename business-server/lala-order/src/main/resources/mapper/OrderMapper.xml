@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lala.order.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.lala.order.entity.Order">
+    <!--@mbg.generated-->
+    <!--@Table `order`-->
+    <id column="oid" jdbcType="INTEGER" property="oid" />
+    <result column="order_code" jdbcType="VARCHAR" property="orderCode" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="post" jdbcType="VARCHAR" property="post" />
+    <result column="receiver" jdbcType="VARCHAR" property="receiver" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="user_message" jdbcType="VARCHAR" property="userMessage" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="pay_date" jdbcType="TIMESTAMP" property="payDate" />
+    <result column="delivery_date" jdbcType="TIMESTAMP" property="deliveryDate" />
+    <result column="confirm_date" jdbcType="TIMESTAMP" property="confirmDate" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    oid, order_code, address, post, receiver, mobile, user_message, create_date, pay_date, 
+    delivery_date, confirm_date, `status`, `uid`
+  </sql>
+</mapper>

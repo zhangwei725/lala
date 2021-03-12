@@ -10,12 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 @Slf4j
 public class HomeController {
-    //    Logger log = LoggerFactory.getLogger(HomeController.class);
     @GetMapping("/")
     public ResponseResult<String> index() {
-        log.info("首页信息");
-        log.error("错误日志");
         return ResponseResult.success("hello world");
     }
-
 }

@@ -22,7 +22,14 @@ public enum ResponseCode {
     /**
      *
      */
-    USER_PASSWORD_NAME(400011, "password is error", "密码错误");
+    USER_PASSWORD_NAME(400011, "password is error", "密码错误"),
+
+    /**
+     * 订单相关的 错误信息
+     */
+    ORDER_PRODUCT_OUT(400031, "product out", "部分商品已经下架,请重新下单"),
+    ORDER_CREATE_ERROR(400033, "create  order  fail ", "创建订单失败,请重新下单"),
+    PRODUCT_STOCK_OUT(400032, "product stock out", "商品库存不够,请重新下单");
 
     /**
      * 返回码

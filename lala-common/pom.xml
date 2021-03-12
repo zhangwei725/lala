@@ -16,6 +16,7 @@
     <description></description>
     <modules>
         <module>lala-common-pojo</module>
+        <module>lala-db-starter</module>
     </modules>
 
 </project>
